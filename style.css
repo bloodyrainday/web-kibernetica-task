@@ -9,6 +9,7 @@
 
 .wrapper {
   max-width: 1920px;
+  width: 100vw;
   height: 100vh;
   padding: 0 40px;
   align-content: center;
@@ -72,6 +73,23 @@
 }
 
 .right-column {
+  border-radius: 16px;
   display: flex;
   align-items: end;
+  background-image: url("./assets/images/image15.png");
+  width: 910px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .right-column img {
+  width: 680px;
+  height: 456px;
+} */
+
+@media (max-width: 1440px) {
+  .right-column {
+    width: 680px;
+    background-image: url("./assets/images/image16.png");
+  }
 }
