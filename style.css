@@ -63,6 +63,11 @@
   font-size: 18px;
   color: white;
   line-height: 160%;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
 
 .btn span {
@@ -84,14 +89,18 @@
 
 /* popup start */
 
+.overlay.active {
+  visibility: inherit;
+}
+
 .overlay {
+  visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.52);
-  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,7 +195,6 @@ form a {
   font-weight: 500;
   margin-bottom: 36px;
   cursor: pointer;
-  transition: 0.2s;
 }
 
 form a:hover {
