@@ -92,11 +92,15 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.52);
   z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .popup {
   width: 500px;
   height: 575px;
+  background-color: #ebf0fa;
 }
 
 /* popup end */
