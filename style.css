@@ -132,6 +132,7 @@
   font-size: 24px;
   color: #323232;
   margin-bottom: 18px;
+  font-weight: 500;
 }
 
 form {
@@ -145,6 +146,8 @@ form input {
   padding-left: 24px;
   border-radius: 10px;
   border: none;
+  color: #1f4284;
+  font-size: 18px;
 }
 
 form input:first-child {
@@ -218,6 +221,10 @@ form a:hover {
   -moz-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.submit-btn:hover {
+  opacity: 0.8;
+}
+
 .register-btn {
   margin-top: 4px;
   width: 100%;
@@ -233,6 +240,10 @@ form a:hover {
   box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.register-btn:hover {
+  opacity: 0.8;
 }
 /* popup end */
 
