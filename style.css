@@ -101,8 +101,55 @@
   width: 500px;
   height: 575px;
   background-color: #ebf0fa;
+  padding: 24px;
 }
 
+.close-btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.close-btn span {
+  content: "";
+  width: 52px;
+  height: 52px;
+  background-image: url("./assets/icons/close-btn.svg");
+}
+
+.popup h4 {
+  font-size: 24px;
+  color: #323232;
+  margin-bottom: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  height: 73px;
+  background-color: #d7e2f6;
+  padding-left: 24px;
+  border-radius: 10px;
+  border: none;
+}
+
+form input:first-child {
+  margin-bottom: 4px;
+}
+
+form input::placeholder {
+  color: #1f4284;
+  font-style: 18px;
+  font-weight: 700;
+}
+
+.checkbox {
+}
 /* popup end */
 
 @media (max-width: 1440px) {
